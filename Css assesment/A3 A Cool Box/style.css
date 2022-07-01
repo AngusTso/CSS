@@ -1,0 +1,20 @@
+html {
+  font-family: sans-serif;
+}
+
+/* Your CSS below here */
+
+p{
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 1.15rem; /*  1.15 x 16 = 18.4px   */
+  background-color: pink;
+  color: pink;
+  text-shadow:  0px 0px 4px black;
+  border: 1px solid hotpink;
+  border-radius: 10px;
+  background-color: linear-gradient(to bottom right, transparent, rgb(1,1,1, 0.2) 30% , rgb(1,1,1, 0.2));
+  box-shadow: 2px 2px 2px black , -2px -2px 2px rgb(1,1,1,0.3) inset , 2px 2px 2px rgb(0,0,0,0.3) inset;
+}

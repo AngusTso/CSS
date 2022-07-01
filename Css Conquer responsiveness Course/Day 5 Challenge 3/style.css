@@ -1,0 +1,64 @@
+/*
+** Element Section
+*/
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+h1{
+  font-size: 42px;
+  font-weight: 900;
+
+}
+
+p{
+  font-size: 21px;
+  font-weight: 400;
+  color: rgb(255,255,255,0.7);
+}
+
+
+/*
+** div Section
+*/
+.container {
+  width: 100%;
+  margin: 0 auto;
+  background: #23424a;
+  color: white;
+  padding: 50px 0;
+}
+
+.intro-content {
+  padding-left: 5%;
+  width: 50%;
+  border: 2px solid red;
+}
+.intro-content p{
+
+margin-bottom: 3 em;
+}
+/*
+** Utilities Section
+*/
+.btn{
+ padding: 2% 8%;
+ text-align: center;
+ background-color: #38CFD9;
+ border: none;
+ border-radius: 30px;
+ color: #23424A;
+ font-family: inherit;
+ font-weight: bold;
+ font-size: 21px;
+}
+
+.btn:hover{
+  background-color: lightblue;
+}

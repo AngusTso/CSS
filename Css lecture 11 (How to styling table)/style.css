@@ -1,0 +1,28 @@
+table{
+  table-layout: fixed;
+  border-collapse: collapse;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+td, th {
+    padding: 0.125em 0.5em 0.25em 0.5em;
+    line-height: 1;
+    text-align: left;
+}
+
+
+.head.normal{
+  text-align: left;
+}
+
+.head.number{
+ text-align: right;
+}
+
+.cell.number{
+  text-align: right;
+}
+
+tfoot th , tfoot td{
+  text-align: center;
+}

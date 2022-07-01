@@ -1,0 +1,18 @@
+/* Create your test CSS here */
+
+.special {
+  color: red;
+}
+
+p{
+  color: coral;
+}
+
+.box {
+  margin: 30px;
+  width: 360px;
+  height: 240px;
+  background-color: rebeccapurple;
+  background-image: url("minju.jpg");
+  transform: scale(2, 0.5);
+}

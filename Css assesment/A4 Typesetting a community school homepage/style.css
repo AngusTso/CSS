@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('font/alexbrush-regular-webfont.woff2') format('woff2'),
+         url('font/alexbrush-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'nobilemedium';
+    src: url('font/nobile-medium-webfont.woff2') format('woff2'),
+         url('font/nobile-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 10px;
+}
+
+body {
+  margin: 0 auto;
+  font-family: 'nobilemedium' , sans-serif;
+  font-size: 1.6rem;
+  line-height: 2;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+h1{
+  font-family: 'alex_brushregular', sans-serif;
+  font-size: 5rem;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+section h2 + p{
+ text-indent: 20px;
+}
+
+a:link{
+  outline: none;
+ color : #4c516d;
+}
+
+a:visited{
+  color : #559999;
+}
+
+a:focus{
+  text-decoration: none;
+  color : #a95c68;
+}
+
+a:hover{
+  text-decoration: none;
+  color : #ff80ff;
+}
+
+a:active{
+  color: hotpink;
+  background-color: #7df9ff
+}
+
+a[href*="http"] {
+  background: url('external-link-52.png') no-repeat 100% 0;
+  background-size: 16px 16px;
+  padding-right: 19px;
+}
+
+nav ul li{
+  font-family: 'nobilemedium' , sans-serif;
+  font-weight: bold;
+  background-color: #a66;
+  border: 1px solid #559999;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+nav ul li a:link{
+  text-decoration: none;
+}
+
+ol li ,  ul li{
+  line-height: 2;
+}
+
+ul{
+  list-style: square;
+}
+/* Layout */
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */

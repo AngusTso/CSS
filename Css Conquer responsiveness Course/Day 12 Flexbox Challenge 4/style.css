@@ -1,0 +1,102 @@
+/*
+** General Ultilities
+*/
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 10px;
+}
+
+img{
+  max-width: 100%;
+}
+/*
+** Layout
+*/
+
+.container{
+  width: 80%;
+}
+
+.hero{
+  min-height: 660px;
+  background-color: #F3EED9;
+  max-width: 1128px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.hero.design{
+  background-color: white;
+}
+
+.hero.logan{
+  background-color: #222C2A;
+}
+.hero.care{
+  background-color: #824936;
+}
+.Design_content
+{
+ display: flex;
+ justify-content: space-between;
+ gap:6rem;
+}
+
+.logan_layout{
+  display: flex;
+  justify-content: space-between;
+  gap: 6rem;
+}
+/*
+** Typograhy
+*/
+
+.Big_title{
+  font-size: 6rem;
+  font-family: 'Playfair Display', serif;
+  color: #824936;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Sub_title{
+  font-size: 1.8rem;
+  font-family: 'Roboto', serif;
+  font-weight: 300;
+  color: #222C2A;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Design_title{
+  font-size: 3.6rem;
+  font-family: 'Playfair Display', serif;
+  color: #824936;
+  text-align: center;
+}
+
+.Design_paragraph{
+  font-size: 2.1rem;
+  font-family: 'Roboto', serif;
+  font-weight: 400;
+  color: #222C2A;
+  text-align: left;
+  width: 100%;
+}
+
+.white{
+  color: white;
+}
+
+.yellow{
+  color: #F3EED9;
+  text-align: left;
+}
